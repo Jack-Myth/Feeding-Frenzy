@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\FF2D">
+      <UniqueIdentifier>{51254095-a178-4fbf-9451-6faf15d9e801}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FF2D">
+      <UniqueIdentifier>{2097b51e-49a6-4c95-93cc-0e7c224edd49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FF2D\Lib">
+      <UniqueIdentifier>{794cf2f9-e832-44bb-aa94-ff1ce7767a3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FF2D\Lib">
+      <UniqueIdentifier>{608682a5-3120-4c47-8651-abe2ee4cdfdb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FeedingFrenzy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FFDebug.cpp">
+      <Filter>Source Files\FF2D</Filter>
+    </ClCompile>
+    <ClCompile Include="FFData.cpp">
+      <Filter>Source Files\FF2D</Filter>
+    </ClCompile>
+    <ClCompile Include="FFReflectionManager.cpp">
+      <Filter>Source Files\FF2D</Filter>
+    </ClCompile>
+    <ClCompile Include="FFTimerManager.cpp">
+      <Filter>Source Files\FF2D</Filter>
+    </ClCompile>
+    <ClCompile Include="FFRenderManager.cpp">
+      <Filter>Source Files\FF2D</Filter>
+    </ClCompile>
+    <ClCompile Include="FFMedia.cpp">
+      <Filter>Source Files\FF2D</Filter>
+    </ClCompile>
+    <ClCompile Include="FF2DBase.cpp">
+      <Filter>Source Files\FF2D</Filter>
+    </ClCompile>
+    <ClCompile Include="FFGCManager.cpp">
+      <Filter>Source Files\FF2D</Filter>
+    </ClCompile>
+    <ClCompile Include="FFStateMachine.cpp">
+      <Filter>Source Files\FF2D</Filter>
+    </ClCompile>
+    <ClCompile Include="FFComponent.cpp">
+      <Filter>Source Files\FF2D</Filter>
+    </ClCompile>
+    <ClCompile Include="FFActor.cpp">
+      <Filter>Source Files\FF2D</Filter>
+    </ClCompile>
+    <ClCompile Include="FFScene.cpp">
+      <Filter>Source Files\FF2D</Filter>
+    </ClCompile>
+    <ClCompile Include="FFControllers.cpp">
+      <Filter>Source Files\FF2D</Filter>
+    </ClCompile>
+    <ClCompile Include="FFControllableActor.cpp">
+      <Filter>Source Files\FF2D</Filter>
+    </ClCompile>
+    <ClCompile Include="FFUI.cpp">
+      <Filter>Source Files\FF2D</Filter>
+    </ClCompile>
+    <ClCompile Include="FFGameMode.cpp">
+      <Filter>Source Files\FF2D</Filter>
+    </ClCompile>
+    <ClCompile Include="FF2DOperations.cpp">
+      <Filter>Source Files\FF2D</Filter>
+    </ClCompile>
+    <ClCompile Include="WaveFile.cpp">
+      <Filter>Source Files\FF2D\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="json11.cpp">
+      <Filter>Source Files\FF2D\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="FFHAL.cpp">
+      <Filter>Source Files\FF2D</Filter>
+    </ClCompile>
+    <ClCompile Include="FFType.cpp">
+      <Filter>Source Files\FF2D</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GlobalMacro.h">
+      <Filter>Header Files\FF2D</Filter>
+    </ClInclude>
+    <ClInclude Include="FFDelegate.h">
+      <Filter>Header Files\FF2D</Filter>
+    </ClInclude>
+    <ClInclude Include="FFDebug.h">
+      <Filter>Header Files\FF2D</Filter>
+    </ClInclude>
+    <ClInclude Include="FFData.h">
+      <Filter>Header Files\FF2D</Filter>
+    </ClInclude>
+    <ClInclude Include="FFReflectionManager.h">
+      <Filter>Header Files\FF2D</Filter>
+    </ClInclude>
+    <ClInclude Include="FFTimerManager.h">
+      <Filter>Header Files\FF2D</Filter>
+    </ClInclude>
+    <ClInclude Include="FFRenderManager.h">
+      <Filter>Header Files\FF2D</Filter>
+    </ClInclude>
+    <ClInclude Include="FFMedia.h">
+      <Filter>Header Files\FF2D</Filter>
+    </ClInclude>
+    <ClInclude Include="FF2DBase.h">
+      <Filter>Header Files\FF2D</Filter>
+    </ClInclude>
+    <ClInclude Include="FFGCManager.h">
+      <Filter>Header Files\FF2D</Filter>
+    </ClInclude>
+    <ClInclude Include="FFStateMachine.h">
+      <Filter>Header Files\FF2D</Filter>
+    </ClInclude>
+    <ClInclude Include="FFComponent.h">
+      <Filter>Header Files\FF2D</Filter>
+    </ClInclude>
+    <ClInclude Include="FFActor.h">
+      <Filter>Header Files\FF2D</Filter>
+    </ClInclude>
+    <ClInclude Include="FFScene.h">
+      <Filter>Header Files\FF2D</Filter>
+    </ClInclude>
+    <ClInclude Include="FFControllableActor.h">
+      <Filter>Header Files\FF2D</Filter>
+    </ClInclude>
+    <ClInclude Include="FFUI.h">
+      <Filter>Header Files\FF2D</Filter>
+    </ClInclude>
+    <ClInclude Include="FFControllers.h">
+      <Filter>Header Files\FF2D</Filter>
+    </ClInclude>
+    <ClInclude Include="FFGameMode.h">
+      <Filter>Header Files\FF2D</Filter>
+    </ClInclude>
+    <ClInclude Include="FF2DOperations.h">
+      <Filter>Header Files\FF2D</Filter>
+    </ClInclude>
+    <ClInclude Include="json11.hpp">
+      <Filter>Header Files\FF2D\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="WaveFile.h">
+      <Filter>Header Files\FF2D\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="FFHAL.h">
+      <Filter>Header Files\FF2D</Filter>
+    </ClInclude>
+    <ClInclude Include="FFType.h">
+      <Filter>Header Files\FF2D</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
